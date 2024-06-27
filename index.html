@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="izq">
+            <div>
+                <img class="logo" src="assets/Logo@2x.png" alt="logo de alura">
+            </div>
+            <div class="expand">
+                    <textarea id="frase" type="text" class="encriptar" placeholder="Ingrese el texto aqui"></textarea>
+                </div>
+            <div class="info">
+                <img class="vector" src="assets/Vector.png" alt="informacion">
+                <span class="min">Solo letras minúsculas y sin acentos</span>
+            </div>
+            <div class="buttons">
+                <button onclick="codificar()" class="btnEncriptar">Encriptar</button>
+                <button onclick="decodificar()" class="btnDesencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="rectangulo">
+            <img class="muñeco" src="assets/Muñeco.png" alt="">
+            <div class="message">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <span class="h4">Ingresa el texto que desees encriptar o desencriptar.</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

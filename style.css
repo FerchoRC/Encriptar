@@ -1,0 +1,124 @@
+body{
+    background-color: #F3F5FC;
+}
+.container{
+    display: flex;
+}
+.logo{
+    width: 120px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 40px;
+    gap: 40px;
+}
+.expand{
+    display: inline-block;
+    position: relative;
+}
+.encriptar{
+    width: 577px;
+    height: 70px;
+    margin-top: 128px;
+    margin-left: 240px;
+    font-size: 32px;
+    line-height: 48px;
+    border: none;
+    background-color: #F3F5FC;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    resize: none;
+    overflow: hidden;
+    color: #0A3871;
+}
+::placeholder{
+    color: #0A3871;
+}
+.info{
+    margin-top: 451px;
+    margin-left: 240px;
+    gap: 8px;
+    align-items: flex-start;
+    display: flex;
+    align-items: center;
+}
+.vector{
+    width: 16px;
+    height: 16px;
+}
+.min{
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 80%;
+    color: #495057;
+    font-family: 'Inter', sans-serif;
+}
+.buttons{
+    display: flex;
+    
+}
+.btnEncriptar{
+    width: 328px;
+    height: 67px;
+    background-color: #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+.btnDesencriptar{
+    width: 328px;
+    height: 67px;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    padding: 24px;
+    color: #0A3871;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-color: #0A3871;
+    border-style: solid;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+.rectangulo{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 830px;
+    margin-left: 180px;
+    margin-top: 40px;
+    border-radius: 32px;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    width: 336px;
+    height: 162px;
+}
+h2{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    color: #343A40;
+    font-family: 'Inter', sans-serif;
+}
+.h4{
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    color: #495057;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+}
